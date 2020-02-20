@@ -626,9 +626,11 @@ figcaption {
 
 .paragraph {
   width: auto;
+  margin-top: 20px;
   margin-right: 20px;
   margin-left: 20px;
   padding-left: 0px;
+  font-style: normal;
   -o-object-fit: fill;
   object-fit: fill;
 }
@@ -687,6 +689,8 @@ figcaption {
 }
 
 .button-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 20px;
   cursor: pointer;
 }
@@ -731,7 +735,28 @@ figcaption {
 }
 
 .list-item {
-  margin-top: 20px;
+  margin-top: 0px;
+}
+
+.image {
+  margin-left: 0px;
+  padding-right: 0px;
+}
+
+.image-2 {
+  margin-left: 0px;
+}
+
+.link-block {
+  margin-left: 20px;
+}
+
+.text-block-2 {
+  margin: 20px 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-style: italic;
+  text-decoration: none;
 }
 
 html.w-mod-js *[data-ix="fade-in-bottom-page-loads"] {
